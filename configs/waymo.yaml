@@ -1,0 +1,9 @@
+inherit_from: "configs/base_config.yaml"
+
+Model:
+  chunk_size: 60
+  overlap: 30
+  loop_chunk_size: 20
+  loop_enable: True
+  useDBoW: False
+  delete_temp_files: True
