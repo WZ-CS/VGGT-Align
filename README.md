@@ -97,14 +97,6 @@ bash run_waymo.sh
 bash run_openloris.sh
 ```
 
-Script presets:
-
-| Script | Config | Scale/TTA preset |
-| --- | --- | --- |
-| `run_kitti.sh` | `configs/kitti.yaml` | full model: ground prior, road-width prior, TTA |
-| `run_vkitti.sh` | `configs/kitti.yaml` | full model: ground prior, road-width prior, TTA |
-| `run_waymo.sh` | `configs/waymo.yaml` | full model: ground prior, road-width prior, adaptive blend, TTA |
-| `run_openloris.sh` | `configs/openloris.yaml` | full model: ground prior, road-width prior, TTA |
 
 You can also call the Python entrypoint directly:
 
