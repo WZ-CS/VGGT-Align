@@ -1,7 +1,7 @@
 <h1 align="center">VGGT-Align: Bridging Local Reconstruction and Global Consistency for Long-Sequence 3D Reconstruction</h1>
 
 <p align="center">
-  <strong><a href="">Paper</a></strong>
+  <strong><a href="https://arxiv.org/abs/2608.15260">Paper</a></strong>
 </p>
 
 Official implementation of **VGGT-Align**, a framework for improving global geometric consistency in long-sequence 3D reconstruction.
@@ -133,14 +133,11 @@ This project builds on [VGGT-Long](https://github.com/DengKaiCQ/VGGT-Long), [VGG
 If you find this work useful, please cite:
 
 ```bibtex
-@misc{zhang2026vggtalign,
-  title         = {VGGT-Align: Bridging Local Reconstruction and Global Consistency for Long-Sequence 3D Reconstruction},
-  author        = {Wei Zhang and Yihang Wu and Songhua Li and Qi Wang},
-  year          = {2026},
-  eprint        = {},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
-  url           = {}
+@article{zhang2026vggt,
+  title={VGGT-Align: Bridging Local Reconstruction and Global Consistency for Long-Sequence 3D Reconstruction},
+  author={Zhang, Wei and Wu, Yihang and Li, Songhua and Wang, Qi},
+  journal={arXiv preprint arXiv:2608.15260},
+  year={2026}
 }
 ```
 
